@@ -1,0 +1,8 @@
+{
+  "parent": "nature:custom/snakeegg",
+  "textures": {
+    "all": "nature:blocks/snake_egg",
+    "particle": "nature:blocks/snake_egg",
+    "0": "nature:blocks/snake_egg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/snake_egg",
+		"particle": "block/snake_egg"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 8],
+			"to": [9, 3, 10],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 5], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 5], "texture": "#0"},
+				"south": {"uv": [6, 2, 8, 5], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 5], "texture": "#0"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

@@ -1,0 +1,18 @@
+{
+  "item.minecraft.lingering_potion.effect.hedgehog_spiked": "Lingering Spiked",
+  "item.nature.snake_spawn_egg": "Snake Spawn Egg",
+  "item.nature.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
+  "item.nature.spike": "Spike",
+  "entity.nature.snake": "Snake",
+  "biome.nature.semi_jungle": "Semi Jungle",
+  "item.nature.tiger_spawn_egg": "Tiger Spawn Egg",
+  "item.minecraft.splash_potion.effect.hedgehog_spiked": "Splash Spiked",
+  "entity.nature.hedgehog": "Hedgehog",
+  "effect.hedgehog_spiked": "Spiked",
+  "item.nature.raw_hedgehog": "Hedgehog Meat",
+  "block.nature.snake_egg": "Snake Egg",
+  "item.minecraft.tipped_arrow.effect.hedgehog_spiked": "Arrow of Spiked",
+  "item.minecraft.potion.effect.hedgehog_spiked": "Spiked",
+  "entity.nature.tiger": "Tiger",
+  "death.attack.spiked": "%1$s was Spiked to death"
+}

@@ -1,0 +1,297 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Hedgehog",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hedgehog"
+    },
+    {
+      "name": "RawHedgehog",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_hedgehog"
+    },
+    {
+      "name": "Snake",
+      "type": "mob",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snake"
+    },
+    {
+      "name": "SnakeAttacks",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snake_attacks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HedgehogSpikedOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hedgehog_spiked_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HedgehogSpiked",
+      "type": "potion",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hedgehog_spiked"
+    },
+    {
+      "name": "HedgehogPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hedgehog_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnakeEgg",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snake_egg"
+    },
+    {
+      "name": "SnakeOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snake_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TigerCondition",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiger_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tiger",
+      "type": "mob",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiger"
+    },
+    {
+      "name": "Spike",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spike"
+    },
+    {
+      "name": "SnakeEggUpdateTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snake_egg_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HedgehogSpikedPotionExpires",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hedgehog_spiked_potion_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SemiJungle",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semi_jungle"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "spiked",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "snakeEgg",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "snakeSpawn",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.hedgehog_spiked": "Lingering Spiked",
+      "item.nature.snake_spawn_egg": "Snake Spawn Egg",
+      "item.nature.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
+      "item.nature.spike": "Spike",
+      "entity.nature.snake": "Snake",
+      "biome.nature.semi_jungle": "Semi Jungle",
+      "item.nature.tiger_spawn_egg": "Tiger Spawn Egg",
+      "item.minecraft.splash_potion.effect.hedgehog_spiked": "Splash Spiked",
+      "entity.nature.hedgehog": "Hedgehog",
+      "effect.hedgehog_spiked": "Spiked",
+      "item.nature.raw_hedgehog": "Hedgehog Meat",
+      "block.nature.snake_egg": "Snake Egg",
+      "item.minecraft.tipped_arrow.effect.hedgehog_spiked": "Arrow of Spiked",
+      "item.minecraft.potion.effect.hedgehog_spiked": "Spiked",
+      "entity.nature.tiger": "Tiger",
+      "death.attack.spiked": "%1$s was Spiked to death"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "nature",
+    "modName": "Nature++",
+    "version": "1.0.0",
+    "author": "Enter100, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.nature",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}

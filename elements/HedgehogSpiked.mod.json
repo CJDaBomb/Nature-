@@ -1,0 +1,25 @@
+{
+  "_fv": 15,
+  "_type": "potion",
+  "definition": {
+    "name": "Spiked",
+    "effectName": "Spiked",
+    "icon": "spike.png",
+    "color": {
+      "value": -12769529,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "HedgehogSpikedOnPotionActiveTick"
+    },
+    "onExpired": {
+      "name": "HedgehogSpikedPotionExpires"
+    }
+  }
+}
